@@ -1,0 +1,9 @@
+Encapsulamiento: No hubo tiempo 
+
+Herencia: Se usa en el archivo de Producto para la creacion de la clase principal, de la cual sera la lista principal que habra en el inventario. A partir de esta se crean Computador, Celular y Televisor.
+
+Polimorfismo: Se usa en el archivo de Producto, para redefinir el metodo de verProducto() que esta en la clase principal (Producto) segun las necesidades de cada Clase hija.
+
+Modularización: Se reparte en el codigo.
+
+Principios de diseño: Cada funcion solo hace lo que debe hacer.
