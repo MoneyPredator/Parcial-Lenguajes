@@ -1,0 +1,9 @@
+Encapsulamiento: Las clases hojas que seran los objetos tienen los atributos privados, cuentan con su respectivo get cada una.
+
+Herencia: Se usa en el archivo de Producto para la creacion de la clase principal, de la cual heredan las clases computador, celular y televisor.
+
+Polimorfismo: En la clase Producto, esta el metodo verProducto, y este se redefine para cada clase hija en base a sus necesidades.
+
+Modularización: Se reparte en el codigo.
+
+Principios de diseño: Cada funcion solo hace lo que debe hacer.
