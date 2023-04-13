@@ -1,13 +1,16 @@
 #ifndef TIENDA_H
 #define TIENDA_H
-#include <list>
+#include <vector>
 #include "Producto.h"
 
 class Tienda{
     public:
-    std::list<Producto>inventario;
-    std::list<Producto> addProducto(Producto);
-    std::list<Producto> borrar(int);
+    std::vector<Producto*>inventario;
+    //Constructor
+    Tienda(std::vector<Producto*> Inventory);
+    void verProductos();
+    void addProducto(Producto* producto);
+    void borrar(Producto* producto);
 };
 
 #endif
